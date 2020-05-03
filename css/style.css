@@ -1,0 +1,212 @@
+/**********************tag selectors*******************/
+body
+{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+}
+h4
+{
+  margin-top: 5%;
+}
+h2,h3,h4
+{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 600;
+  margin-top: 5%;
+}
+p
+{
+  width: 70%;
+  font-size: 18px;
+  color: grey;
+}
+img
+{
+  margin: 5% auto 2% auto;
+}
+li
+{
+  list-style-type: none
+}
+a
+{
+  color:grey;
+}
+a:hover
+{
+  text-decoration: none;
+  color: Lightgrey;
+}
+ul{
+  margin-top: 40px;
+}
+/***********************class selectors****************/
+.foot-links
+{
+  background-color: 	rgb(245,245,245);
+  height:auto;
+  text-align: center;
+}
+.row
+{
+  margin: 0;
+}
+.gadget
+{
+  width:70%;
+  margin-top: 1.5%;
+  margin-bottom: 0;
+}
+.align
+{
+  margin-top: 6%;
+}
+.bottom-one
+{
+text-align: center;
+
+}
+.left
+{
+  text-align: center;
+}
+.image-computer
+{
+  text-align: center;
+  width:90%;
+  margin: auto;
+  margin-left: 10%;
+}
+.button1,.button2
+{
+  border-radius: 3em;
+  margin: 3% auto 8% auto ;
+  font-size:18px;
+  color: white;
+}
+.button1
+{
+  background-color: hsl(171, 66%, 44%);
+
+}
+.button2
+{
+  background-color: hsl(233, 100%, 69%);
+}
+.col-lg-6
+{
+  text-align: left;
+  margin-top: 2%;
+}
+.center
+{
+  margin: auto;
+  margin-bottom: 2%;
+  width:50%;
+}
+.col-lg-4
+{
+  text-align: center;
+  margin-bottom: 8%;
+}
+.col
+{
+  text-align: center;
+  display: block;
+}
+.icon-social
+{
+  margin:60px 10px 10px 10px;
+}
+/***********************id selectors*******************/
+#header
+{
+    text-align: center;
+    line-height:1.5;
+    background-image: url('bg-header-desktop.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:50%;
+}
+#middle
+{
+text-align: center;
+}
+#properties
+{
+  text-align: center;
+  margin: 4% auto 4% auto;
+}
+#footer
+{
+  margin-top: 8%;
+  text-align: center;
+}
+/******************media query*****************/
+@media only screen and (max-width: 720px) {
+.col
+{
+  display: inline-block;
+}
+.foot-links
+{
+  text-align: center;
+}
+.space-it
+{
+  padding-top: 5%;
+}
+
+.align,.align1
+{
+  text-align: center;
+}
+.align1
+{
+  margin: auto;
+}
+}
+.col-lg-5-cols
+{
+  text-align: center;
+}
+
+
+
+.col-xs-5-cols,.col-xs-6-cols ,
+    .col-sm-5-cols,
+    .col-md-5-cols,
+    .col-lg-5-cols {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .col-xs-5-cols,.col-xs-6-cols {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    @media (min-width: 768px) {
+        .col-sm-5-cols,.col-xs-6-cols  {
+            -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+            max-width: 20%;
+        }
+    }
+    @media (min-width: 992px) {
+        .col-md-5-cols,.col-xs-6-cols  {
+            -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+            max-width: 20%;
+        }
+    }
+    @media (min-width: 1200px) {
+        .col-lg-5-cols,.col-xs-6-cols  {
+            -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+            max-width: 20%;
+        }
+    }
